@@ -1,0 +1,406 @@
+INSERT INTO `app_texts`
+(`id`, `language_id`, `text`, `text_key`, `status`, `created_at`, `updated_at`)
+VALUES
+(NULL, '2', 'Nyt', 'Now', '1', NULL, NULL),
+(NULL, '3', 'Nu', 'Now', '1', NULL, NULL),
+
+(NULL, '1', 'Today', 'Today', '1', NULL, NULL),
+(NULL, '2', 'Tänään', 'Today', '1', NULL, NULL),
+(NULL, '3', 'Idag', 'Today', '1', NULL, NULL),
+
+(NULL, '1', 'Tonight', 'Tonight', '1', NULL, NULL),
+(NULL, '2', 'Illalla', 'Tonight', '2', NULL, NULL),
+(NULL, '3', 'I afton', 'Tonight', '3', NULL, NULL),
+
+(NULL, '1', 'Tomorrow', 'Tomorrow', '1', NULL, NULL),
+(NULL, '2', 'Huomenna', 'Tomorrow', '1', NULL, NULL),
+(NULL, '3', 'I morgon', 'Tomorrow', '1', NULL, NULL),
+
+(NULL, '1', 'Select Date', 'Select Date', '1', NULL, NULL),
+(NULL, '2', 'Valitse pvm', 'Select Date', '1', NULL, NULL),
+(NULL, '3', 'Välj datum', 'Select Date', '1', NULL, NULL),
+
+(NULL, '1', 'Start Date', 'Start Date', '1', NULL, NULL),
+(NULL, '2', 'Aloitus pvm', 'Start Date', '1', NULL, NULL),
+(NULL, '3', 'Startdatum', 'Start Date', '1', NULL, NULL),
+
+(NULL, '1', 'End Date', 'End Date', '1', NULL, NULL),
+(NULL, '2', 'Lopetus pvm', 'End Date', '1', NULL, NULL),
+(NULL, '3', 'Slutdatum', 'End Date', '1', NULL, NULL),
+
+(NULL, '1', 'Add free event', 'Add free event', '1', NULL, NULL),
+(NULL, '2', 'Lisää ilmainen tapahtuma', 'Add free event', '1', NULL, NULL),
+(NULL, '3', 'Lägg till gratis evenemang', 'Add free event', '1', NULL, NULL),
+
+(NULL, '1', 'Add standard event', 'Add standard event', '1', NULL, NULL),
+(NULL, '2', 'Lisää perustapahtuma', 'Add standard event', '1', NULL, NULL),
+(NULL, '3', 'Lägg till standardevenemang', 'Add standard event', '1', NULL, NULL),
+
+(NULL, '1', 'Add premium event', 'Add premium event', '1', NULL, NULL),
+(NULL, '2', 'Lisää Premium-tapahtuma', 'Add premium event', '1', NULL, NULL),
+(NULL, '3', 'Lägg till Premium-evenemang', 'Add premium event', '1', NULL, NULL),
+
+(NULL, '1', 'Add notification request', 'Add notification request', '1', NULL, NULL),
+(NULL, '2', 'Tapahtumavahti', 'Add notification request', '1', NULL, NULL),
+(NULL, '3', 'Evenemang-vakt', 'Add notification request', '1', NULL, NULL),
+
+(NULL, '1', 'Add feedback to heigais', 'Add feedback to heigais', '1', NULL, NULL),
+(NULL, '2', 'Lähetä palautetta heigais:lle', 'Add feedback to heigais', '1', NULL, NULL),
+(NULL, '3', 'Skicka feedback till heigais', 'Add feedback to heigais', '1', NULL, NULL),
+
+(NULL, '1', 'Let's get started', 'Let's get started', '1', NULL, NULL),
+(NULL, '2', 'Aloitetaan', 'Let's get started', '1', NULL, NULL),
+(NULL, '3', 'Kom igång', 'Let's get started', '1', NULL, NULL),
+
+(NULL, '1', 'Email', 'Email', '1', NULL, NULL),
+(NULL, '2', 'S-posti', 'Email', '1', NULL, NULL),
+(NULL, '3', 'E-post', 'Email', '1', NULL, NULL),
+
+(NULL, '1', 'Password', 'Password', '1', NULL, NULL),
+(NULL, '2', 'Salasana', 'Password', '1', NULL, NULL),
+(NULL, '3', 'Lösenord', 'Password', '1', NULL, NULL),
+
+(NULL, '1', 'Sign in', 'Sign in', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu', 'Sign in', '1', NULL, NULL),
+(NULL, '3', 'Logga in', 'Sign in', '1', NULL, NULL),
+
+(NULL, '1', 'or Connect using', 'or Connect using', '1', NULL, NULL),
+(NULL, '2', 'tai yhdistä käyttäen', 'or Connect using', '1', NULL, NULL),
+(NULL, '3', 'eller via', 'or Connect using', '1', NULL, NULL),
+
+(NULL, '1', 'Don't have an account?Sign up', 'Don't have an account?Sign up', '1', NULL, NULL),
+(NULL, '2', 'Ei tiliä? Rekisteröidy', 'Don't have an account?Sign up', '1', NULL, NULL),
+(NULL, '3', 'Inget konto? Registrera dig', 'Don't have an account?Sign up', '1', NULL, NULL),
+
+(NULL, '1', 'Create your account', 'Create your account', '1', NULL, NULL),
+(NULL, '2', 'Luo tiliä', 'Create your account', '1', NULL, NULL),
+(NULL, '3', 'Skapa konto', 'Create your account', '1', NULL, NULL),
+
+(NULL, '1', 'Name', 'Name', '1', NULL, NULL),
+(NULL, '2', 'Nimi', 'Name', '1', NULL, NULL),
+(NULL, '3', 'Namn', 'Name', '1', NULL, NULL),
+
+(NULL, '1', 'Confirm Password', 'Confirm Password', '1', NULL, NULL),
+(NULL, '2', 'Toista salasana', 'Confirm Password', '1', NULL, NULL),
+(NULL, '3', 'Lösenord på nytt', 'Confirm Password', '1', NULL, NULL),
+
+(NULL, '1', 'Agree to terms and conditions', 'Agree to terms and conditions', '1', NULL, NULL),
+(NULL, '2', 'Hyväksyn ehdot', 'Agree to terms and conditions', '1', NULL, NULL),
+(NULL, '3', 'Jag godkänner villkoren', 'Agree to terms and conditions', '1', NULL, NULL),
+
+(NULL, '1', 'Sign up', 'Sign up', '1', NULL, NULL),
+(NULL, '2', 'Rekisteröidy', 'Sign up', '1', NULL, NULL),
+(NULL, '3', 'Registrera dig', 'Sign up', '1', NULL, NULL),
+
+(NULL, '1', 'Ok', 'Ok', '1', NULL, NULL),
+(NULL, '2', 'Ok', 'Ok', '1', NULL, NULL),
+(NULL, '3', 'Ok', 'Ok', '1', NULL, NULL),
+
+(NULL, '1', 'Cancel', 'Cancel', '1', NULL, NULL),
+(NULL, '2', 'Peru', 'Cancel', '1', NULL, NULL),
+(NULL, '3', 'Ångra', 'Cancel', '1', NULL, NULL),
+
+(NULL, '1', 'Alert', 'Alert', '1', NULL, NULL),
+(NULL, '2', 'Ilmoitus', 'Alert', '1', NULL, NULL),
+(NULL, '3', 'Meddela', 'Alert', '1', NULL, NULL),
+
+(NULL, '1', 'Please login first to add event', 'Please login first to add event', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ensin', 'Please login first to add event', '1', NULL, NULL),
+(NULL, '3', 'Logga in först', 'Please login first to add event', '1', NULL, NULL),
+
+(NULL, '1', 'Please login first to add notification', 'Please login first to add notification', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ensin', 'Please login first to add notification', '1', NULL, NULL),
+(NULL, '3', 'Logga in först', 'Please login first to add notification', '1', NULL, NULL),
+
+(NULL, '1', 'Add feedback', 'Add feedback', '1', NULL, NULL),
+(NULL, '2', 'Lähetä palautetta', 'Add feedback', '1', NULL, NULL),
+(NULL, '3', 'Skicka feedback', 'Add feedback', '1', NULL, NULL),
+
+(NULL, '1', 'Type feedback here', 'Type feedback here', '1', NULL, NULL),
+(NULL, '2', 'Kirjoita palautetta tänne', 'Type feedback here', '1', NULL, NULL),
+(NULL, '3', 'Skriv feedbacken här', 'Type feedback here', '1', NULL, NULL),
+
+(NULL, '1', 'Send', 'Send', '1', NULL, NULL),
+(NULL, '2', 'Lähetä', 'Send', '1', NULL, NULL),
+(NULL, '3', 'Skicka', 'Send', '1', NULL, NULL),
+
+(NULL, '1', 'Add event', 'Add event', '1', NULL, NULL),
+(NULL, '2', 'Lisää tapahtuma', 'Add event', '1', NULL, NULL),
+(NULL, '3', 'Lägg till evenemang', 'Add event', '1', NULL, NULL),
+
+(NULL, '1', 'Event name', 'Event name', '1', NULL, NULL),
+(NULL, '2', 'Tapahtuman otsikko', 'Event name', '1', NULL, NULL),
+(NULL, '3', 'Evenemangets rubrik', 'Event name', '1', NULL, NULL),
+
+(NULL, '1', 'Sub-title optional', 'Sub-title optional', '1', NULL, NULL),
+(NULL, '2', 'Alaotsikko (valinnainen)', 'Sub-title optional', '1', NULL, NULL),
+(NULL, '3', 'Underrubrik (ej oblig.)', 'Sub-title optional', '1', NULL, NULL),
+
+(NULL, '1', 'Event description', 'Event description', '1', NULL, NULL),
+(NULL, '2', 'Tapahtuman tiedot', 'Event description', '1', NULL, NULL),
+(NULL, '3', 'Evenemangets detaljer', 'Event description', '1', NULL, NULL),
+
+(NULL, '1', 'Select event type', 'Select event type', '1', NULL, NULL),
+(NULL, '2', 'Valitse tapahtumatyyppi', 'Select event type', '1', NULL, NULL),
+(NULL, '3', 'Välj typ av evenemang', 'Select event type', '1', NULL, NULL),
+
+(NULL, '1', 'Free', 'Free', '1', NULL, NULL),
+(NULL, '2', 'Ilmainen', 'Free', '1', NULL, NULL),
+(NULL, '3', 'Gratis', 'Free', '1', NULL, NULL),
+
+(NULL, '1', 'Standard', 'Standard', '1', NULL, NULL),
+(NULL, '2', 'Perus', 'Standard', '1', NULL, NULL),
+(NULL, '3', 'Standard', 'Standard', '1', NULL, NULL),
+
+(NULL, '1', 'Premium', 'Premium', '1', NULL, NULL),
+(NULL, '2', 'Premium', 'Premium', '1', NULL, NULL),
+(NULL, '3', 'Premium', 'Premium', '1', NULL, NULL),
+
+(NULL, '1', 'Help', 'Help', '1', NULL, NULL),
+(NULL, '2', 'Apua', 'Help', '1', NULL, NULL),
+(NULL, '3', 'Hjälp', 'Help', '1', NULL, NULL),
+
+(NULL, '1', 'Total credits', 'Total credits', '1', NULL, NULL),
+(NULL, '2', 'Saldo', 'Total credits', '1', NULL, NULL),
+(NULL, '3', 'Saldo', 'Total credits', '1', NULL, NULL),
+
+(NULL, '1', 'Event dates', 'Event dates', '1', NULL, NULL),
+(NULL, '2', 'Tapahtuman PVM', 'Event dates', '1', NULL, NULL),
+(NULL, '3', 'Evenemangets datum', 'Event dates', '1', NULL, NULL),
+
+(NULL, '1', 'From Time', 'From Time', '1', NULL, NULL),
+(NULL, '2', 'Aloitusaika', 'From Time', '1', NULL, NULL),
+(NULL, '3', 'Starttid', 'From Time', '1', NULL, NULL),
+
+(NULL, '1', 'To Time', 'To Time', '1', NULL, NULL),
+(NULL, '2', 'Lopetusaika', 'To Time', '1', NULL, NULL),
+(NULL, '3', 'Sluttid', 'To Time', '1', NULL, NULL),
+
+(NULL, '1', 'Pick Date', 'Pick Date', '1', NULL, NULL),
+(NULL, '2', 'Valitse pvm', 'Pick Date', '1', NULL, NULL),
+(NULL, '3', 'Välj datum', 'Pick Date', '1', NULL, NULL),
+
+(NULL, '1', 'Pick Time', 'Pick Time', '1', NULL, NULL),
+(NULL, '2', 'Valitse aika', 'Pick Time', '1', NULL, NULL),
+(NULL, '3', 'Välj tid', 'Pick Time', '1', NULL, NULL),
+
+(NULL, '1', 'Event Location', 'Event Location', '1', NULL, NULL),
+(NULL, '2', 'Tapahtuman paikka', 'Event Location', '1', NULL, NULL),
+(NULL, '3', 'Evenemangets plats', 'Event Location', '1', NULL, NULL),
+
+(NULL, '1', 'Categories', 'Categories', '1', NULL, NULL),
+(NULL, '2', 'Kategoriat', 'Categories', '1', NULL, NULL),
+(NULL, '3', 'Kategorier', 'Categories', '1', NULL, NULL),
+
+(NULL, '1', 'Select', 'Select', '1', NULL, NULL),
+(NULL, '2', 'Valitse', 'Select', '1', NULL, NULL),
+(NULL, '3', 'Välj', 'Select', '1', NULL, NULL),
+
+(NULL, '1', 'Booking link optional', 'Booking link optional', '1', NULL, NULL),
+(NULL, '2', 'Linkki tapahtumaan (valinnainen)', 'Booking link optional', '1', NULL, NULL),
+(NULL, '3', 'Länk till evenemanget (ej obl.)', 'Booking link optional', '1', NULL, NULL),
+
+(NULL, '1', 'Direct pay', 'Direct pay', '1', NULL, NULL),
+(NULL, '2', 'Suoramaksu', 'Direct pay', '1', NULL, NULL),
+(NULL, '3', 'Betala direkt', 'Direct pay', '1', NULL, NULL),
+
+(NULL, '1', 'Buy credits', 'Buy credits', '1', NULL, NULL),
+(NULL, '2', 'Osta kredittejä', 'Buy credits', '1', NULL, NULL),
+(NULL, '3', 'Köp krediter', 'Buy credits', '1', NULL, NULL),
+
+(NULL, '1', 'Buy Now', 'Buy Now', '1', NULL, NULL),
+(NULL, '2', 'Osta heti', 'Buy Now', '1', NULL, NULL),
+(NULL, '3', 'Betala direkt', 'Buy Now', '1', NULL, NULL),
+
+(NULL, '1', 'Credits history', 'Credits history', '1', NULL, NULL),
+(NULL, '2', 'Kredittihistoria', 'Credits history', '1', NULL, NULL),
+(NULL, '3', 'Kredithistoria', 'Credits history', '1', NULL, NULL),
+
+(NULL, '1', 'Buy 12 credits', 'Buy 12 credits', '1', NULL, NULL),
+(NULL, '2', 'Osta 12 kredittiä', 'Buy 12 credits', '1', NULL, NULL),
+(NULL, '3', 'Köp 12 krediter', 'Buy 12 credits', '1', NULL, NULL),
+
+(NULL, '1', 'Validity 1 year', 'Validity 1 year', '1', NULL, NULL),
+(NULL, '2', 'Voimassa 1 vuosi', 'Validity 1 year', '1', NULL, NULL),
+(NULL, '3', 'I kraft 1 år', 'Validity 1 year', '1', NULL, NULL),
+
+(NULL, '1', 'Continuous Notification', 'Continuous Notification', '1', NULL, NULL),
+(NULL, '2', 'Jatkuva ilmoitus', 'Continuous Notification', '1', NULL, NULL),
+(NULL, '3', 'Fortsatt påminnelse', 'Continuous Notification', '1', NULL, NULL),
+
+(NULL, '1', 'Distance', 'Distance', '1', NULL, NULL),
+(NULL, '2', 'Etäisyys', 'Distance', '1', NULL, NULL),
+(NULL, '3', 'Distans', 'Distance', '1', NULL, NULL),
+
+(NULL, '1', 'Add request', 'Add request', '1', NULL, NULL),
+(NULL, '2', 'Lisää pyyntö', 'Add request', '1', NULL, NULL),
+(NULL, '3', 'Önskar bli påmind', 'Add request', '1', NULL, NULL),
+
+(NULL, '1', 'Logout', 'Logout', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ulos', 'Logout', '1', NULL, NULL),
+(NULL, '3', 'Logga ut', 'Logout', '1', NULL, NULL),
+
+(NULL, '1', 'My events', 'My events', '1', NULL, NULL),
+(NULL, '2', 'Omat tapahtumat', 'My events', '1', NULL, NULL),
+(NULL, '3', 'Egna evenemang', 'My events', '1', NULL, NULL),
+
+(NULL, '1', 'Interested', 'Interested', '1', NULL, NULL),
+(NULL, '2', 'Kiinnostunut', 'Interested', '1', NULL, NULL),
+(NULL, '3', 'Intressen', 'Interested', '1', NULL, NULL),
+
+(NULL, '1', 'Notification Detail', 'Notification Detail', '1', NULL, NULL),
+(NULL, '2', 'Pyynnön tiedot', 'Notification Detail', '1', NULL, NULL),
+(NULL, '3', 'Påminnelsens detaljer', 'Notification Detail', '1', NULL, NULL),
+
+(NULL, '1', 'Radius', 'Radius', '1', NULL, NULL),
+(NULL, '2', 'Etäisyys', 'Radius', '1', NULL, NULL),
+(NULL, '3', 'Distans', 'Radius', '1', NULL, NULL),
+
+(NULL, '1', 'Edit', 'Edit', '1', NULL, NULL),
+(NULL, '2', 'Muuta', 'Edit', '1', NULL, NULL),
+(NULL, '3', 'Ändra', 'Edit', '1', NULL, NULL),
+
+(NULL, '1', 'Delete', 'Delete', '1', NULL, NULL),
+(NULL, '2', 'Poista', 'Delete', '1', NULL, NULL),
+(NULL, '3', 'Radera', 'Delete', '1', NULL, NULL),
+
+(NULL, '1', 'Update event', 'Update event', '1', NULL, NULL),
+(NULL, '2', 'Päivitä tapahtuma', 'Update event', '1', NULL, NULL),
+(NULL, '3', 'Uppdatera evenemang', 'Update event', '1', NULL, NULL),
+
+(NULL, '1', 'Update notification', 'Update notification', '1', NULL, NULL),
+(NULL, '2', 'Päivitä pyyntö', 'Update notification', '1', NULL, NULL),
+(NULL, '3', 'Uppdatera påminnelse', 'Update notification', '1', NULL, NULL),
+
+(NULL, '1', 'Accept', 'Accept', '1', NULL, NULL),
+(NULL, '2', 'Hyväksy', 'Accept', '1', NULL, NULL),
+(NULL, '3', 'Godkänn', 'Accept', '1', NULL, NULL),
+
+(NULL, '1', 'Select Location', 'Select Location', '1', NULL, NULL),
+(NULL, '2', 'Valitse paikka', 'Select Location', '1', NULL, NULL),
+(NULL, '3', 'Välj plats', 'Select Location', '1', NULL, NULL),
+
+(NULL, '1', 'Update profile', 'Update profile', '1', NULL, NULL),
+(NULL, '2', 'Päivitä profiilia', 'Update profile', '1', NULL, NULL),
+(NULL, '3', 'Uppdatera profil', 'Update profile', '1', NULL, NULL),
+
+(NULL, '1', 'Sign out', 'Sign out', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ulos', 'Sign out', '1', NULL, NULL),
+(NULL, '3', 'Logga ut', 'Sign out', '1', NULL, NULL),
+
+(NULL, '1', 'Settings', 'Settings', '1', NULL, NULL),
+(NULL, '2', 'Asetukset', 'Settings', '1', NULL, NULL),
+(NULL, '3', 'Inställningar', 'Settings', '1', NULL, NULL),
+
+(NULL, '1', 'App setting', 'App setting', '1', NULL, NULL),
+(NULL, '2', 'Sov.asetukset', 'App setting', '1', NULL, NULL),
+(NULL, '3', 'Progr. inställningar', 'App setting', '1', NULL, NULL),
+
+(NULL, '1', 'Credits', 'Credits', '1', NULL, NULL),
+(NULL, '2', 'Kreditit', 'Credits', '1', NULL, NULL),
+(NULL, '3', 'Krediter', 'Credits', '1', NULL, NULL),
+
+(NULL, '1', 'Distance unit', 'Distance unit', '1', NULL, NULL),
+(NULL, '2', 'Etäisyysyksikkö', 'Distance unit', '1', NULL, NULL),
+(NULL, '3', 'Distansmått', 'Distance unit', '1', NULL, NULL),
+
+(NULL, '1', 'Language', 'Language', '1', NULL, NULL),
+(NULL, '2', 'Kieli', 'Language', '1', NULL, NULL),
+(NULL, '3', 'Språk', 'Language', '1', NULL, NULL),
+
+(NULL, '1', 'Select language', 'Select language', '1', NULL, NULL),
+(NULL, '2', 'Valitse kieli', 'Select language', '1', NULL, NULL),
+(NULL, '3', 'Välj språk', 'Select language', '1', NULL, NULL),
+
+(NULL, '1', 'Limitation for free event', 'Limitation for free event', '1', NULL, NULL),
+(NULL, '2', 'Ilmaisen tapahtuman rajoitukset', 'Limitation for free event', '1', NULL, NULL),
+(NULL, '3', 'Restriktioner för gratis evenemang', 'Limitation for free event', '1', NULL, NULL),
+
+(NULL, '1', 'Limitations for Standard Event', 'Limitations for Standard Event', '1', NULL, NULL),
+(NULL, '2', 'Perustapahtuman rajoitukset', 'Limitations for Standard Event', '1', NULL, NULL),
+(NULL, '3', 'Restriktioner fär standard-evenemang', 'Limitations for Standard Event', '1', NULL, NULL),
+
+(NULL, '1', 'Standard event will be maximum 10 Hrs length', 'Standard event will be maximum 10 Hrs length', '1', NULL, NULL),
+(NULL, '2', 'Tapahtuman maksimipituus on 10h', 'Standard event will be maximum 10 Hrs length', '1', NULL, NULL),
+(NULL, '3', 'Ett evenemang kan vara max. 10h', 'Standard event will be maximum 10 Hrs length', '1', NULL, NULL),
+
+(NULL, '1', 'Limitations for premium Event', 'Limitations for premium Event', '1', NULL, NULL),
+(NULL, '2', 'Premium-tapahtuman rajoitukset', 'Limitations for premium Event', '1', NULL, NULL),
+(NULL, '3', 'Restriktioner för Premium-evenemang', 'Limitations for premium Event', '1', NULL, NULL),
+
+(NULL, '1', 'Premium event will be maximum 96 Hrs length', 'Premium event will be maximum 96 Hrs length', '1', NULL, NULL),
+(NULL, '2', 'Premium-tapahtuma voi olla enintään 96 h pituinen', 'Premium event will be maximum 96 Hrs length', '1', NULL, NULL),
+(NULL, '3', 'Premium-evenemang kan pågå maks 96 h', 'Premium event will be maximum 96 Hrs length', '1', NULL, NULL),
+
+(NULL, '1', 'Don’t show this message again', 'Don’t show this message again', '1', NULL, NULL),
+(NULL, '2', 'Älä näytä tätä ilmoitusta', 'Don’t show this message again', '1', NULL, NULL),
+(NULL, '3', 'Visa inte detta meddelande', 'Don’t show this message again', '1', NULL, NULL),
+
+(NULL, '1', 'Description', 'Description', '1', NULL, NULL),
+(NULL, '2', 'Selitys', 'Description', '1', NULL, NULL),
+(NULL, '3', 'Förklaring', 'Description', '1', NULL, NULL),
+
+(NULL, '1', 'Address', 'Address', '1', NULL, NULL),
+(NULL, '2', 'Osoite', 'Address', '1', NULL, NULL),
+(NULL, '3', 'Adress', 'Address', '1', NULL, NULL),
+
+(NULL, '1', 'Dates', 'Dates', '1', NULL, NULL),
+(NULL, '2', 'Pvm', 'Dates', '1', NULL, NULL),
+(NULL, '3', 'Datum', 'Dates', '1', NULL, NULL),
+
+(NULL, '1', 'Category', 'Category', '1', NULL, NULL),
+(NULL, '2', 'Kategoria', 'Category', '1', NULL, NULL),
+(NULL, '3', 'Kategorier', 'Category', '1', NULL, NULL),
+
+(NULL, '1', 'Start Time', 'Start Time', '1', NULL, NULL),
+(NULL, '2', 'Aloitusaika', 'Start Time', '1', NULL, NULL),
+(NULL, '3', 'Starttid', 'Start Time', '1', NULL, NULL),
+
+(NULL, '1', 'End time', 'End time', '1', NULL, NULL),
+(NULL, '2', 'Lopetusaika', 'End time', '1', NULL, NULL),
+(NULL, '3', 'Sluttid', 'End time', '1', NULL, NULL),
+
+(NULL, '1', 'Open In google map location', 'Open In google map location', '1', NULL, NULL),
+(NULL, '2', 'Avaa Google maps:ssa', 'Open In google map location', '1', NULL, NULL),
+(NULL, '3', 'Öppna i Google Maps', 'Open In google map location', '1', NULL, NULL),
+
+(NULL, '1', 'Total', 'Total', '1', NULL, NULL),
+(NULL, '2', 'Yhteensä', 'Total', '1', NULL, NULL),
+(NULL, '3', 'Tillsammans', 'Total', '1', NULL, NULL),
+
+(NULL, '1', 'To update profile first login please', 'To update profile first login please', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ensin', 'To update profile first login please', '1', NULL, NULL),
+(NULL, '3', 'Logga in först', 'To update profile first login please', '1', NULL, NULL),
+
+(NULL, '1', 'Please login first to see or update different setting', 'Please login first to see or update different setting', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ensin', 'Please login first to see or update different setting', '1', NULL, NULL),
+(NULL, '3', 'Logga in först', 'Please login first to see or update different setting', '1', NULL, NULL),
+
+(NULL, '1', 'To see interested requests first login please', 'To see interested requests first login please', '1', NULL, NULL),
+(NULL, '2', 'Kirjaudu ensin', 'To see interested requests first login please', '1', NULL, NULL),
+(NULL, '3', 'Logga in först', 'To see interested requests first login please', '1', NULL, NULL),
+
+(NULL, '1', 'login terms conditions', 'Usage Data is collected automatically when using the Service.
+Usage Data may include information such as Your Device's
+Internet Protocol address (e.g. IP address), browser type,
+browser version, the pages of our Service that You visit,
+the time and date of Your visit, the time spent on those pages
+, unique device identifiers and other diagnostic data.', '1', NULL, NULL),
+(NULL, '2', 'login terms conditions', 'Tietoa kerätään automaattisesti kun käytät tätä palvelua. Kerätty tieto voi sisältää tietoa kuten puhelintyyppiä, IP osoitettasi, selaintyyppiä, selainversiota, tietoa mistä osioista sovelluksesta olet käyttänyt, aika ja päivämäärä kun käytät sovellusta, käytetty aika sovelluksessa, tunnistautumistietoa ja muuta sovelluksen diagnostiikkaan liittyviä tietoja.', '1', NULL, NULL),
+(NULL, '3', 'login terms conditions', 'Information samlas in automatiskt då du använder programmet. Information som samlas in, kan innehålla information som mobiltelefonstyp och version, IP adress, internet-bläddrarens typ och version, information om vilka delar av programmet du använder, samt tiden du spenderar på dem, tid och datum du använder programmet, identifierings-information samt annan information som berör programmets diagnostik.', '1', NULL, NULL),
+
+(NULL, '1', 'balance alert', 'Your balance is insufficient, Please Buy Credits or Direct Pay for add event', '1', NULL, NULL),
+(NULL, '2', 'balance alert', 'Saldosi ei riitä, osta lisää kredittejä tai maksa suoraan', '1', NULL, NULL),
+(NULL, '3', 'balance alert', 'Ditt saldo räcker inte, köp mer krediter eller betala direkt', '1', NULL, NULL),
+
+(NULL, '1', 'delete event', 'Are you sure you want to delete the Event?', '1', NULL, NULL),
+(NULL, '2', 'delete event', 'Haluatko varmasti poistaa tapahtumaa?', '1', NULL, NULL),
+(NULL, '3', 'delete event', 'Är du säker att du vill radera evenemanget?', '1', NULL, NULL),
+
+(NULL, '1', 'delete notification request', 'Are you sure you want to delete the Notification Request?', '1', NULL, NULL),
+(NULL, '2', 'delete notification request', 'Haluatko varmasti poistaa pyyntöä?', '1', NULL, NULL),
+(NULL, '3', 'delete notification request', 'Är du säker att du vill radera påminnelsen?', '1', NULL, NULL),
+
+(NULL, '1', 'free event limitation', 'Free event will be maximum 6 Hrs length The end time of event cannot be later than 6:00 PM', '1', NULL, NULL),
+(NULL, '2', 'free event limitation', 'Ilmainen tapahtuma voi olla enintään 6 h pituinen ja tapahtuman lopetusaika ei voi olla 18:00 jälkeen', '1', NULL, NULL),
+(NULL, '3', 'free event limitation', 'Ett gratis-evenemang, kan pågå maks 6 h, sluttiden kan inte vara efter kl. 18:00', '1', NULL, NULL);
